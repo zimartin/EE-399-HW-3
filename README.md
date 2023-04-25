@@ -291,6 +291,46 @@ The SVD decomposition allows us to transform the input data matrix X into a lowe
 ### Part 4
 For part 4, we plot three V-modes onto a 3D plot. I chose to plot columns 0, 1, and 2.
 
+![download](https://user-images.githubusercontent.com/129991497/234189078-8f9c2c7f-68cf-49f5-b366-4edbc02d7db6.png "Fig 4. 3 V-modes plotted in 3D against the 10 digits of mnist")
 
+### 2 Digit LDA
+For the 2-digit LDA, I chose to look at "4" and "5".
+The accuracies were as follows:
+```
+Accuracy for digit 4: 0.96
+Accuracy for digit 5: 0.97
+```
+
+### 3 Digit LDA
+For the 3-digit LDA, I chose to look at "0", "1", and "2".
+
+The accuracies were as follows:
+```
+Accuracy for digit 0: 0.91
+Accuracy for digit 1: 0.95
+Accuracy for digit 2: 0.96
+```
+
+### Most Difficult to Separate
+In this part, I determined which two digits we the most difficult to separate using LDA. To do this I compare the accuracies of the classifier on each pair of digits.
+At 93% accurate, the pair of "2" and "6" was the most difficult to separate.
+
+### Compare Performance
+In the final part of the project, I compared the accuracy of the LDA classifier against an SVM classifier and a Decision Tree classifier.
+
+The results were as follows:
+```
+LDA accuracy: .97
+SVM accuracy: 0.98
+Decision Tree classifier accuracy: 0.96
+```
+
+The LDA and SVM classifiers both performed quite well with the SVM slightly out-performing the LDA. The Decision Tree classifier fell behind slightly.
 
 ## Summary and Conclusions
+Correlation matrices help to identify relationships between variables, while eigenvectors and eigenvalues provide insights into the underlying structure of a dataset. Singular Value Decomposition (SVD) is a powerful tool for dimensionality reduction, feature extraction, and data compression.
+
+Linear Discriminant Analysis (LDA) is another important statistical technique that is used to classify data by maximizing the separability of different classes. By finding the optimal projection of the data onto a lower-dimensional space, LDA can improve classification accuracy and help identify important features in the dataset.
+
+Overall, the combination of these techniques provides a powerful toolkit for analyzing complex datasets and extracting meaningful insights. By using matrix operations and visualization techniques, researchers can gain a better understanding of the relationships between different variables and the underlying structure of the data.
+
