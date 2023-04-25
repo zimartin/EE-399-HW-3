@@ -1,6 +1,6 @@
 # EE 399 HW 3
 ### Zack Martin
-
+Much of this code and this report were written in part by AI using ChatGPT.
 ## Abstract
 This project investigates the recognition and classification of handwritten digits using various machine learning techniques such as correlation matrices, singular value decomposition (SVD), linear discriminant analysis (LDA), support vector machines (SVM), and decision trees. We explore the well-known MNIST dataset and preprocess the images into a suitable format for analysis. By computing correlation matrices, we analyze the similarities and differences between digits and uncover the underlying structure of the data through eigenvectors and SVD. Our investigation of the principal component directions emphasizes the importance of these techniques in dimensionality reduction and feature extraction for applications in computer vision and machine learning.
 We then compare the performance of LDA, SVM, and decision tree classifiers in separating and identifying individual digits. Through this analysis, we gain insights into the strengths and weaknesses of these methods for digit recognition tasks. We also examine the trade-offs between classification accuracy and computational efficiency and discuss the implications of these results for real-world applications of machine learning. Finally, we provide recommendations for future research to improve the accuracy and scalability of digit recognition algorithms and identify areas where machine learning can be applied to other related problems in computer vision and pattern recognition.
